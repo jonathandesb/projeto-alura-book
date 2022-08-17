@@ -1,0 +1,38 @@
+.contato {
+    background-color: var(--branco);
+}
+
+.titulo__contato {
+    padding: 1em;
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.descricao__contato {
+    padding:  0.5em 1em;
+}
+
+.email__pesquisa {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border: 2px solid var(--azul);
+    border-radius: 30px;
+    padding: 1em 2em;
+    margin: 1em 1em;
+    width: 80%;
+}
+
+.email__pesquisa::placeholder {
+    font-family: "Poppins";
+    color: var(--azul);
+    font-weight: 500;
+    padding: 4px;
+    background: url(../img/Email.svg);
+    background-repeat: no-repeat;
+    padding-left: 2em;
+    
+    
+}

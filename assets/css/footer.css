@@ -1,0 +1,11 @@
+footer {
+    border-top: 1px solid #858585;
+    background-color: var(--cor-de-fundo);
+    padding: 1em;
+    font-weight: 500;
+    font-family: var(--fonte-principal);
+}
+
+footer a {
+    text-decoration: none;
+}
