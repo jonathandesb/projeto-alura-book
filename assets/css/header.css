@@ -18,17 +18,20 @@
 .container {
     display: flex;
     align-items: center;
+    padding: 2px;
 }
 
 .container__imagem {
     display: flex;
     padding: 1em;
+ 
 }
 
 .lista-menu {
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
 }
 
 .container__botao:checked ~ .lista-menu {
@@ -41,5 +44,18 @@
 }
 
 .lista-menu__titulo {
-    color: ;
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* o background  degrade azul passa a ser aplicado somente em texto */
+    text-transform: uppercase;
+}
+
+.container__botao {
+    display: none; /*Ocultar a caixinha de cheackbox */
 }
