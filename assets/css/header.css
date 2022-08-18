@@ -61,3 +61,27 @@
 .container__botao {
     display: none; /*Ocultar a caixinha de cheackbox */
 }
+
+.container__titulo {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
+    .container__titulo, .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+    .container__titulo {
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
+    
+
+}
