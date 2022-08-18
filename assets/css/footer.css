@@ -9,3 +9,55 @@ footer {
 footer a {
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
+
+    footer {
+        background-color: var(--branco);
+        padding: 3em;
+       display: flex;
+      
+       
+      
+       
+       
+    }
+
+    .grupo__alura {
+        font-size: 24px;
+        color: var(--azul);
+        padding: 0 1em;
+        margin-top: 10px;
+       
+    }
+
+    .educacao, .educacao_online, .comunidade {
+       
+        text-transform: uppercase;
+        
+    }
+
+    .patrocinios__lista {
+        margin: 16px 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo_lista{
+        margin-bottom: 1em;
+        font-size: 14px;
+        color: var(--cinza-claro);
+    }
+
+    .patrocinios_item {
+        font-size: 14px;
+        margin: 1em 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .icones__texto {
+        padding-left: 7px;
+    }
+
+}
