@@ -58,13 +58,11 @@
     text-transform: uppercase;
 }
 
-.container__botao {
-    display: none; /*Ocultar a caixinha de cheackbox */
+.container__botao, .container__titulo, .opcoes {
+    display: none; /*Utilizar o display none para ocultar tudo aquilo que foi adicionado na resolução 1024px */
 }
 
-.container__titulo {
-    display: none;
-}
+
 
 @media screen and (min-width: 1024px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
     .container__titulo, .container__titulo--negrito {
@@ -82,6 +80,44 @@
         font-weight: 700;
     }
 
+    .opcoes, .opcoes__link{
+        color: var(--azul);
+        display: flex;
+        font-family: "Poppins";
+        font-weight: 400;
     
+    }
 
+    .opcoes__item {
+        display: flex;
+        align-items: center;
+        margin: 0 1em;
+        text-transform: uppercase;
+        
+    }
+
+    .opcoes__link {
+        text-decoration: none;
+        
+    }
+
+    .cabecalho__menu-hamburguer, .container__imagem-transparent {
+        display: none; /* Ocultando o menu hamburguer, categoria de favoritos, que era da versão mobile */
+    }
+
+    .logo-alurabooks {
+        margin-right: 11px;
+        margin-left: 80px;
+        margin-bottom: 35px;
+        margin-top: 20px;
+}
+
+.opcoes__botao:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+
+}
+
+.opcoes__botao {
+    display: none;
 }

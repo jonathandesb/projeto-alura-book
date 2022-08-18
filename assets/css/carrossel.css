@@ -85,3 +85,34 @@ width: 100%;
     
 }
 
+@media screen and (min-width: 1024px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
+
+    .carrossel__titulo {
+        font-size: 26px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .swiper-pagination  {
+        margin: 2em 0 3em 0;
+        
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    
+.swiper-button-prev, .swiper-button-next {
+    display: block;
+    top: 60%
+}
+
+.card {
+    width: 50%;
+    margin: 3em auto;
+}
+
+.carrossel__titulo {
+    font-size: 26px;
+} 
