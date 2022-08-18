@@ -10,17 +10,16 @@ footer a {
     text-decoration: none;
 }
 
+.patrocinios  {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
 
     footer {
         background-color: var(--branco);
         padding: 3em;
-       display: flex;
-      
-       
-      
-       
-       
+       display: flex; 
     }
 
     .grupo__alura {
@@ -28,13 +27,10 @@ footer a {
         color: var(--azul);
         padding: 0 1em;
         margin-top: 10px;
-       
     }
-
-    .educacao, .educacao_online, .comunidade {
-       
-        text-transform: uppercase;
         
+    .patrocinios {
+       display: flex;
     }
 
     .patrocinios__lista {
