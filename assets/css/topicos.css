@@ -32,3 +32,19 @@
     
 }
 
+@media screen and (min-width: 1024px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
+    
+    .topicos {
+        padding: 20px 2em;
+    }
+    
+    .topicos__titulo {
+        font-size: 24px;
+    }
+
+    .topicos__link {
+        font-size: 24px;
+    }
+
+
+}
