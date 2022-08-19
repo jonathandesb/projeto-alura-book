@@ -48,3 +48,17 @@
 
 
 }
+
+
+
+@media screen and (min-width: 1728px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
+
+
+    .topicos {
+     
+        padding: 6em 30vw;
+    }
+
+
+
+}

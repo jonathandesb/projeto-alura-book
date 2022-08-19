@@ -122,6 +122,10 @@
         display: none;
     }
 
+    .opcoes__botao { 
+        display: none;
+    }
+
 } 
 
 
