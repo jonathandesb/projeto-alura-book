@@ -57,3 +57,24 @@ footer a {
     }
 
 }
+
+@media screen and (min-width: 1728px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
+
+    .patrocinios {
+        margin: 0 auto;
+    }
+    
+    
+    .patrocinios__lista {
+        border-left: 2px solid var(--cinza-claro);
+        padding: 1em;
+        margin: 0 10em;
+    }
+
+    .grupo__alura {
+        margin-left: 5em;
+    }
+
+
+
+}
