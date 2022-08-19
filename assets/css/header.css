@@ -166,7 +166,7 @@
         color: var(--preto);
     }
 
-    .container__texto {
+    .container__texto, .container__imagem-transparent {
         display: block;
     }
 
