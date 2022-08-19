@@ -38,6 +38,8 @@
    padding-left: 2.5em;
 }
 
+
+
 @media screen and (min-width: 1024px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
 
     .banner {
@@ -52,12 +54,12 @@
         width: 70%;
     }
 
-    .banner__pesquisa::placeholder {
-        background-position: 9em;
-        color: var(--branco);
-    }
+   
 
 }
+
+
+
 
 @media screen and (min-width: 1728px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
 
