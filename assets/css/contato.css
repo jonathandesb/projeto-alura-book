@@ -64,5 +64,10 @@
         margin-left: 7em;
     }
 
-   
+    @media screen and (min-width: 1728px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
+
+        .contato {
+            padding: 3em 20vw;
+        }
+    }
 }
