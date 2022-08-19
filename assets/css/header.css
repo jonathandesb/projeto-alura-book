@@ -58,10 +58,9 @@
     text-transform: uppercase;
 }
 
-.container__botao, .container__titulo, .opcoes {
+.container__botao, .container__titulo, .opcoes, .container__texto, .opcoes__botao:checked {
     display: none; /*Utilizar o display none para ocultar tudo aquilo que foi adicionado na resolução 1024px */
 }
-
 
 
 @media screen and (min-width: 1024px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
@@ -110,14 +109,67 @@
         margin-left: 80px;
         margin-bottom: 35px;
         margin-top: 20px;
-}
+    
+    }
 
-.opcoes__botao:checked ~ .lista-menu {
+    .opcoes__botao:checked ~ .lista-menu {
     display: block;
     width: auto;
 
+    }
+
+    .opcoes__botao:checked {
+        display: none;
+    }
+
+} 
+
+
+@media screen and (min-width: 1728px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
+
+    .container__link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      padding-right: 80px;
+      
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .container__imagem {
+        width: 2.5em;
+        height: 2.5em;
+        padding: 1px;
+        
+        
+    }
+
+    .container__texto {
+        font-weight: 400;
+        font-size: 20px;
+        color: var(--preto);
+    }
+
+    .opcoes {
+        margin-right: auto;
+    }
+
+    .opcoes__link {
+        font-weight: 400;
+        color: var(--preto);
+    }
+
+    .container__texto {
+        display: block;
+    }
+
+    .opcoes__botao {  /* Ocultando o menu hamburguer, categoria de favoritos, que era da versão mobile */
+        display: none;
+    }
+   
 }
 
-.opcoes__botao {
-    display: none;
-}
+
