@@ -75,7 +75,7 @@ width: 100%;
 }
 
 .botoes__ancora {
-    margin-left: 26px;
+    margin-left: 3em;
     background-color: var(--laranja);
     padding: 1em 2.2em;
     color: var(--branco);
