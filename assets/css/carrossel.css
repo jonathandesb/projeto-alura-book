@@ -40,6 +40,7 @@ width: 100%;
 
 .card__botoes {
     display: flex;
+    justify-content: space-between;
    
 }
 
@@ -75,14 +76,12 @@ width: 100%;
 }
 
 .botoes__ancora {
-    margin-left: 3em;
     background-color: var(--laranja);
     padding: 1em 2.2em;
     color: var(--branco);
     font-weight: 700;
     text-align: center;
     text-decoration: none;
-    
 }
 
 @media screen and (min-width: 1024px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
@@ -117,6 +116,8 @@ width: 100%;
     font-size: 26px;
 } 
 
+}
+
 @media screen and (min-width: 1728px) { /* Pelo fato de ter começado pelo mobile first utilizamos o min-width, caso comece pelo desktop utilize o max-width*/
 
     .carrosel__container {
@@ -144,7 +145,5 @@ width: 100%;
         font-size: 32px;
     }
 
-    .botoes__ancora {
-        margin-left: 16em;
-    }
+   
 }
